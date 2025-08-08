@@ -30,7 +30,7 @@ author:
   university       : "University of Toronto"
   uri              : "https://QiaoFang.github.io"
   email            : "re.zero1910@gmail.com" 
-  github           : "https://github.com/QiaoFang-hub/"
+  github           : "QiaoFang-hub/"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -194,12 +194,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _talks
+  # _educations
   - scope:
       path: ""
-      type: talks
+      type: educations
     values:
-      layout: talk
+      layout: education
       author_profile: true
       share: true
 
