@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Homepage"
+title                    : "Qiao Fang"
 title_separator          : "-"
 name                     : &name "QiaoFang"
 description              : &description "Machine Learning Scientist"
@@ -22,9 +22,8 @@ repository               : "QiaoFang-hub/QiaoFang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "QiaoFang"
-  pronouns         : "she/her"  
+  avatar           : "avatar.JPG"
+  name             : "Qiao Fang"
   bio              : "A machine learning scientist with a passion for generative models and their applications in therapeutics."
   location         : "Toronto, Canada"
   university       : "University of Toronto"
@@ -32,22 +31,12 @@ author:
   email            : "re.zero1910@gmail.com" 
   github           : "QiaoFang-hub/"
 
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
-
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -169,39 +158,18 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
+# No custom collections needed for minimal site
+collections: {}
 
 
-# These settings control how pages and collections are included in the site
+# These settings control how pages are included in the site
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _educations
-  - scope:
-      path: ""
-      type: educations
-    values:
-      layout: education
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS
